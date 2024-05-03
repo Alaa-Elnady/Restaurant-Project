@@ -1,0 +1,182 @@
+/* 
+  MARK:FONTS
+*/
+/* @font-face {
+  font-family: 'CustomFont1';
+  src: url('../fonts/custom-font1.woff2') format('woff2'),
+       url('../fonts/custom-font1.woff') format('woff');
+} */
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.fs-6 {
+  font-size: 0.9rem !important;
+}
+
+.pageTitle {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* 
+  MARK:Header Page Style  
+*/
+.btn-brown {
+  color: white;
+  font-size: 15px;
+  background-color: #c8a97e;
+}
+
+#headerPage {
+  height: 108vh;
+  background-image: url(../images/bg_1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.headerLayer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(16, 16, 16, 0.6);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 15px;
+}
+
+#homelink {
+  color: #c8a97e;
+}
+
+.rest-name {
+  color: #c8a97e;
+  font-size: 72px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.rest-name-caption {
+  color: white;
+  font-size: 48;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+
+/* Catering Services Page Style  */
+#servicesPage {
+  height: 70vh;
+  color: #333333;
+  padding: 50px;
+  background-color: #fafafa;
+}
+
+#servicesPage i {
+  color: #c8a97e;
+  font-size: 60px;
+  margin: 20px 0px;
+}
+
+
+/* Our Menu Page Style  */
+#menuPage {
+  height: 135vh;
+  color: #333333;
+  padding: 50px;
+  /* background-color: yellowgreen; */
+}
+
+#menuPage section {
+  height: 35vh;
+}
+
+#menuPage section img {
+  width: 100%;
+  height: 100%;
+}
+
+#price {
+  color: #c8a97e;
+}
+
+.btn-order {
+  width: 38%;
+  color: white;
+  font-size: 15px;
+  padding: 8px 0px;
+  border-radius: 0.18rem;
+  background-color: #c8a97e;
+}
+
+
+/* Our Master Chef Page Style  */
+#chefsPage {
+  height: 90vh;
+  color: #333333;
+  padding: 5px;
+  /* background-color: aquamarine; */
+}
+
+.chefImgContainer {
+  /* width: 100%; */
+  height: 85%;
+  margin: 15px 0px;
+}
+
+#chefsPage section img {
+  width: 100%;
+  height: 100%;
+}
+
+#chefsPage section i {
+  color: #c8a97e;
+  font-size: 20px;
+}
+
+
+/* Website Footer Page Style */
+#footerPage {
+  padding: 10px 50px;
+  background-color: #141313;
+}
+
+.footerSocialContainer {
+  display: flex;
+  padding: 10px 0px;
+  /* background-color: tomato; */
+}
+
+.footerSocialContainer div {
+  display: flex;
+  padding: 10px;
+  margin: 0px 5px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #201f1f;
+}
+
+.face-pad{
+  padding: 0px 2.5px;
+}
+
+.ins-pad{
+  padding: 0px 1.8px;
+}
+
+#footerPage .instaImgContainer{
+  width: 75%;
+  height: 65%;
+}
+
+#footerPage .instaImgContainer img{
+width: 100%;
+height: 100%;
+}
