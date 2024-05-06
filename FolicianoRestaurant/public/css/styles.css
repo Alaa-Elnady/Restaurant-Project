@@ -1,4 +1,20 @@
 /* 
+  MARK:Variables
+*/
+/* Colors */
+:root {
+  
+  --brown-color: #c8a97e;
+  --midGray-color: #201f1f;
+  --darkGray-color: #141313;
+  --lightGray-color: #333333;
+  --white-Primary: #ffffff;
+  --white-Secondary: #fafafa;
+
+}
+
+
+/* 
   MARK:FONTS
 */
 /* @font-face {
@@ -6,6 +22,8 @@
   src: url('../fonts/custom-font1.woff2') format('woff2'),
        url('../fonts/custom-font1.woff') format('woff');
 } */
+
+
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -23,72 +41,85 @@
 }
 
 /* 
-  MARK:Header Page Style  
+  MARK:Navbar Style  
 */
-.btn-brown {
-  color: white;
-  font-size: 15px;
-  background-color: #c8a97e;
+.navStyle {
+  background-color: var(--midGray-color);
 }
 
-#headerPage {
+.btn-brown {
+  color: var(--white-Primary);
+  font-size: 15px;
+  background-color: var(--brown-color);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--white-Primary);
+  font-size: 15px;
+}
+
+#homelink {
+  color: var(--brown-color);
+}
+
+
+/* 
+  MARK:Hero Style
+*/
+#heroSection {
   height: 108vh;
   background-image: url(../images/bg_1.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.headerLayer {
+.heroContainerLayer {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: rgba(16, 16, 16, 0.6);
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-  font-size: 15px;
-}
-
-#homelink {
-  color: #c8a97e;
-}
-
 .rest-name {
-  color: #c8a97e;
+  color: var(--brown-color);
   font-size: 72px;
   font-family: 'Great Vibes', cursive;
 }
 
 .rest-name-caption {
-  color: white;
+  color: var(--white-Primary);
   font-size: 48;
   font-weight: bold;
   letter-spacing: 0.05em;
 }
 
-
+/* 
+  MARK: Services
+*/
 /* Catering Services Page Style  */
 #servicesPage {
   height: 70vh;
-  color: #333333;
+  color: var(--lightGray-color);
   padding: 50px;
-  background-color: #fafafa;
+  background-color: var(--white-Secondary);
 }
 
 #servicesPage i {
-  color: #c8a97e;
+  color: var(--brown-color);
   font-size: 60px;
   margin: 20px 0px;
 }
 
 
+/* 
+  MARK: Menu
+*/
 /* Our Menu Page Style  */
 #menuPage {
   height: 135vh;
-  color: #333333;
+  color: var(--lightGray-color);
   padding: 50px;
   /* background-color: yellowgreen; */
 }
@@ -103,23 +134,26 @@
 }
 
 #price {
-  color: #c8a97e;
+  color: var(--brown-color);
 }
 
 .btn-order {
   width: 38%;
-  color: white;
+  color: var(--white-Primary);
   font-size: 15px;
   padding: 8px 0px;
   border-radius: 0.18rem;
-  background-color: #c8a97e;
+  background-color: var(--brown-color);
 }
 
 
+/* 
+  MARK: Master Chef
+*/
 /* Our Master Chef Page Style  */
 #chefsPage {
   height: 90vh;
-  color: #333333;
+  color: var(--lightGray-color);
   padding: 5px;
   /* background-color: aquamarine; */
 }
@@ -136,15 +170,17 @@
 }
 
 #chefsPage section i {
-  color: #c8a97e;
+  color: var(--brown-color);
   font-size: 20px;
 }
 
-
+/*
+ MARK: Footer
+*/
 /* Website Footer Page Style */
 #footerPage {
   padding: 10px 50px;
-  background-color: #141313;
+  background-color: var(--darkGray-color);
 }
 
 .footerSocialContainer {
@@ -155,12 +191,14 @@
 
 .footerSocialContainer div {
   display: flex;
-  padding: 10px;
+  /* padding: 10px; */
+  width: 40px;
+  height: 40px;
   margin: 0px 5px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background-color: #201f1f;
+  background-color: var(--midGray-color);
 }
 
 .face-pad{

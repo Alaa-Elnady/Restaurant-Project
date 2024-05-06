@@ -31,10 +31,11 @@
 <body>
 
   <!-- Header Page -->
-  <header id="headerPage">
-    <div class="headerLayer">
+  {{-- <header id="headerPage">
+    <div class="headerLayer"> --}}
+      <div class="navStyle">
       <!-- Navebar -->
-      <nav class="navbar navbar-expand-lg navbar-dark p-2 pt-5">
+      <nav class="navbar navbar-expand-lg navbar-dark p-3 ">
         <div class="container d-flex justify-content-evenly">
           <a class="navbar-brand fw-bolder fs-4" href="#">Foliciano</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -66,8 +67,9 @@
           </div>
         </div>
       </nav>
-    </div>
-  </header>
+      </div>
+    {{-- </div>
+  </header> --}}
 
   {{ $slot }}
 
