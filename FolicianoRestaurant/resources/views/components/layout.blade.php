@@ -30,51 +30,46 @@
 
 <body>
 
-  <!-- Header Page -->
-  {{-- <header id="headerPage">
-    <div class="headerLayer"> --}}
-      <div class="navStyle">
-      <!-- Navebar -->
-      <nav class="navbar navbar-expand-lg navbar-dark p-3 ">
-        <div class="container d-flex justify-content-evenly">
-          <a class="navbar-brand fw-bolder fs-4" href="#">Foliciano</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a id="homelink" class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Stories</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-brown">Book a table</button>
-              </li>
-            </ul>
-          </div>
+  <!-- Navebar -->
+  <div class="navStyle">
+    <nav class="navbar navbar-expand-lg navbar-dark p-3 ">
+      <div class="container d-flex justify-content-evenly">
+        <a class="navbar-brand fw-bolder fs-4" href="#">Foliciano</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a id="homelink" class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Stories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-brown">Book a table</button>
+            </li>
+          </ul>
         </div>
-      </nav>
       </div>
-    {{-- </div>
-  </header> --}}
+    </nav>
+  </div>
 
   {{ $slot }}
 
   <!-- Website Footer Page -->
-  <x-footer />
+  {{-- <x-footer /> --}}
 
 </body>
 

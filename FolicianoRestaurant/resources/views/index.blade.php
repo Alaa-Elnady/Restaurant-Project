@@ -39,5 +39,43 @@
             </footer>
         </div>
     </header>
-    Hello
+
+    <!-- Catering Services Page -->
+    <div id="servicesPage">
+        <h1 class="pageTitle">Catering Services</h1>
+
+        <div class="container">
+            <div class="row">
+                <!-- Birthday Party Section  -->
+                <div class="col-md-4 col-lg-4 col-sm-12  text-center">
+                    <div class="m-1 p-2 px-5 d-flex flex-column align-items-center justify-content-between">
+                        <i class="fa-solid fa-cake-candles"></i>
+                        <h3 class="fw-bolder my-3">Birthday Party</h3>
+                        <p class="lh-lg ">Even the all-powerful Pointing has no control about the blind texts it is an almost
+                        unorthograpics</p>
+                    </div>
+                </div>
+
+                <!-- Business Meetings Section  -->
+                <div class="col-md-4 col-lg-4 col-sm-12  text-center h-80">
+                    <div class="m-1 p-2 px-5 d-flex flex-column align-items-center justify-content-between">
+                        <i class="fa-solid fa-people-arrows"></i>
+                        <h3 class="fw-bolder my-3">Business Meetings</h3>
+                        <p class="lh-lg">Even the all-powerful Pointing has no control about the blind texts it is an almost
+                        unorthograpics</p>
+                    </div>
+                </div>
+
+                <!-- Wedding Party Section -->
+                <div class="col-md-4 col-lg-4 col-sm-12  text-center h-80">
+                    <div class="m-1 p-2 px-5 d-flex flex-column align-items-center justify-content-between">
+                        <i class="fa-solid fa-champagne-glasses"></i>
+                        <h3 class="fw-bolder my-3">Wedding Party</h3>
+                        <p class="lh-lg">Even the all-powerful Pointing has no control about the blind texts it is an almost
+                        unorthograpics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </x-layout>
