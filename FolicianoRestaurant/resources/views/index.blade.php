@@ -87,9 +87,7 @@
 
         <!-- Item 1 Image  -->
         <section class="col-lg-3 col-md-3 col-sm-6 border">
-          <div>
             <img src="{{ asset('images/breakfast-1.jpg') }}" />
-          </div>
         </section>
 
         <!-- Item 1 Caption  -->
@@ -106,9 +104,7 @@
 
         <!-- Item 2 Image  -->
         <section class="col-lg-3 col-md-3 col-sm-6 border">
-          <div>
             <img src="{{ asset('images/breakfast-2.jpg') }}" />
-          </div>
         </section>
 
         <!-- Item 2 Caption  -->
@@ -137,9 +133,7 @@
 
         <!-- Item 3 Image  -->
         <section class="col-lg-3 col-md-3 col-sm-6 border">
-          <div>
             <img src="{{ asset('images/breakfast-3.jpg') }}" />
-          </div>
         </section>
 
         <!-- Item 4 Caption  -->
@@ -156,16 +150,12 @@
 
         <!-- Item 4 Image  -->
         <section class="col-lg-3 col-md-3 col-sm-6 border">
-          <div>
             <img src="images/breakfast-5.jpg" />
-          </div>
         </section>
 
         <!-- Item 5 Image  -->
         <section class="col-lg-3 col-md-3 col-sm-6 border">
-          <div>
             <img src="{{ asset('images/breakfast-6.jpg') }}" />
-          </div>
         </section>
 
         <!-- Item 5 Caption  -->
@@ -182,9 +172,7 @@
 
         <!-- Item 6 Image  -->
         <section class="col-lg-3 col-md-3 col-sm-6 border">
-          <div>
             <img src="{{ asset('images/breakfast-2.jpg') }}" />
-          </div>
         </section>
 
         <!-- Item 6 Caption  -->
@@ -301,5 +289,5 @@
     </div>
   </div>
 
-  
+
 </x-layout>
