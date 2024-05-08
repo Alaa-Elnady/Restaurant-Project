@@ -69,7 +69,7 @@
   {{ $slot }}
 
   <!-- Website Footer Page -->
-  {{-- <x-footer /> --}}
+  <x-footer />
 
 </body>
 
